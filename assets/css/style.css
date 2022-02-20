@@ -604,7 +604,7 @@ h6 {
 @media (max-width: 575px),
 (max-height: 600px) {
   #hero {
-    height: 70vh;
+    height: 75vh;
   }
 }
 
@@ -1688,7 +1688,6 @@ section {
 }
 
 #footer .footer-newsletter h4 {
-  font-size: 16px;
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
@@ -2597,7 +2596,14 @@ background: #28a745;
 .social-button--discord::after {
   background: #6e5494!important;
   color: whitesmoke!important;
+}
 
+.social-button--gmail {
+  color: #ed3c0d!important;
+}
+.social-button--gmail::after {
+  background: #ed3c0d!important;
+  color: whitesmoke!important;
 }
 
 
@@ -2605,4 +2611,101 @@ background: #28a745;
   .social-buttons {
 display: none;
   }
+}
+
+/*********/
+
+.social-buttons1 {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -10px;
+}
+.social-buttons1__button {
+  margin: 10px 10px 0;
+}
+
+.social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 100%;
+  background: #fff;
+  text-align: center;
+}
+.social-button::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+.social-button:focus, .social-button:hover {
+  color: #fff!important;
+}
+.social-button:focus::after, .social-button:hover::after {
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  margin-left: calc(-50% - 1px);
+}
+.social-button i,
+.social-button svg {
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+.social-button i {
+  font-size: 25px !important;
+}
+.social-button svg {
+  height: 40%;
+  width: 40%;
+}
+
+
+.social-button--instagram {
+  color: #e4405f!important;
+}
+.social-button--instagram::after {
+  background: #e4405f!important;
+  color: whitesmoke!important;
+}
+
+.social-button--discord {
+  color: #6e5494!important;
+}
+.social-button--discord::after {
+  background: #6e5494!important;
+  color: whitesmoke!important;
+}
+
+.social-button--gmail {
+  color: #ed3c0d!important;
+}
+.social-button--gmail::after {
+  background: #ed3c0d!important;
+  color: whitesmoke!important;
+}
+
+@media (max-width: 768px) {
+  .social-buttons1 {
+display: flex;
+  }
+}
+
+.gform{
+width: 25%;
+height: 30%;
+position: relative;
+top: 0%;
+left: 10%;
 }
