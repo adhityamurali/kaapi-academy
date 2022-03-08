@@ -58,7 +58,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ebb52f;
+  background: #ffbc28;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -67,7 +67,7 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #001a33;
+  color: #001330;
   line-height: 0;
 }
 
@@ -181,7 +181,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background-color: #ebb52f;
+  background-color: #ffbc28;
   padding: 12px 0;
 }
 
@@ -198,7 +198,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #001a33;
+  color: #001330;
   font-family: 'fantasy';
 }
 
@@ -241,7 +241,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #001a33;
+  color: #001330;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -278,7 +278,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #001a33
+  color: #001330
 }
 
 .navbar .getstarted {
@@ -370,7 +370,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #001a33;
+  color: #001330;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -415,7 +415,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #001a33;
+  background-color: #001330;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -427,7 +427,7 @@ h6 {
 .navbar-mobile a {
   padding: 20px 130px;
   font-size: 15px;
-  color: #ebb52f;
+  color: #ffbc28;
 }
 
 .navbar-mobile a:hover:before,
@@ -501,7 +501,7 @@ h6 {
 #hero {
   width: 100%;
   height: 90vh;
-  background-color: #ebb52f;
+  background-color: #ffbc28;
   /* background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat; */
   background-size: cover;
 }
@@ -537,7 +537,7 @@ h6 {
   transition: 0.5s;
   color: #fff;
   margin-top: 30px;
-  background-color: #ebb52f;
+  background-color: #ffbc28;
 }
 
 #hero .btn-get-started:hover {
@@ -637,7 +637,7 @@ section {
 }
 
 .section-bg {
-  background-color: #001a33;
+  background-color: #001330;
 }
 
 .section-title {
@@ -661,7 +661,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #ebb52f;
+  background: #ffbc28;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -671,11 +671,11 @@ section {
 }
 
 #features-timeline {
-  background-color: #001a33
+  background-color: #001330
 }
 
 #portfolio {
-  background-color: #001a33
+  background-color: #001330
 }
 
 /*--------------------------------------------------------------
@@ -683,7 +683,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 120px 30px;
-  background-color: #001a33;
+  background-color: #001330;
 }
 
 .about .content h3 {
@@ -740,7 +740,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background-color: #001a33;
+  background-color: #001330;
   padding: 0 0 60px 0;
 }
 
@@ -903,7 +903,7 @@ section {
 .features-timeline .icon-box i {
   font-size: 48px;
   float: left;
-  color: #ebb52f;
+  color: #ffbc28;
 }
 
 .features-timeline .icon-box p {
@@ -930,7 +930,7 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 #testimonials{
-  background-color: #001a33;
+  background-color: #001330;
 }
 
 .testimonials .testimonial-item {
@@ -1321,7 +1321,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background-color: #001a33
+  background-color: #001330
 }
 
 .faq .section-title h2,
@@ -1606,7 +1606,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background-color: #001a33;
+  background-color: #001330;
   background-size: cover;
 }
 
@@ -1788,7 +1788,7 @@ section {
 }
 
 .o-underline--yellow .o-underline__mask {
-  background-color: #ebb52f
+  background-color: #ffbc28
 }
 
 .o-underline__brush {
@@ -1831,7 +1831,7 @@ section {
   text-align: center;
   width: 100%;
   /* margin-bottom: 27.34375vw; */
-  -webkit-text-stroke: 1.5px #001a33;
+  -webkit-text-stroke: 1.5px #001330;
 }
 
 @media (min-width:640px) {
@@ -1872,7 +1872,7 @@ section {
   left: 0;
   height: 10vw;
   width: 100%;
-  background-color: #001a33
+  background-color: #001330
 }
 
 .is-webp .c-paper--h {
@@ -2035,7 +2035,7 @@ h4 {
 .main-timeline .timeline-icon:after {
   width: 70px;
   height: 50px;
-  background: #001a33;
+  background: #001330;
   top: 89px;
   right: -30px
 }
@@ -2343,7 +2343,7 @@ h4 {
 --------------------------------------------------------------*/
 
 .courses{
-  background-color: #001a33;
+  background-color: #001330;
   
 }
 
@@ -2363,7 +2363,7 @@ h4 {
   transition: 0.3s;
 }
 .courses .course-content h3 a:hover {
-  color: #ebb52f;
+  color: #ffbc28;
 }
 .courses .course-content p {
   font-size: 14px;
@@ -2371,9 +2371,9 @@ h4 {
 }
 .courses .course-content h4 {
   font-size: 14px;
-  background: #ebb52f;
+  background: #ffbc28;
   padding: 7px 14px;
-  color: #001a33;
+  color: #001330;
   margin-right: 10px;
 }
 .courses .course-content .price {
@@ -2443,7 +2443,7 @@ background: #28a745;
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #ebb52f 10%,
+    #ffbc28 10%,
     #05a85c 23%,
     #7164b8 42%,
     #ff1361 67%,
@@ -2490,7 +2490,7 @@ background: #28a745;
 
 .features{
 
-  background-color: #001a33;
+  background-color: #001330;
 }
 
 .features .icon-box {
